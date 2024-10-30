@@ -1,13 +1,7 @@
 <template lang="">
-	<div>
-		Diary
-	</div>
+  <div>Diary</div>
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style >
-	
-</style>
+<style></style>

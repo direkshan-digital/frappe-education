@@ -1,1 +1,1 @@
-import "./assessment_result_tool.html";
+import './assessment_result_tool.html'

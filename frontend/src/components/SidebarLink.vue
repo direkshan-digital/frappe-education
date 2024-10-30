@@ -1,8 +1,8 @@
 <template>
-	<button
+  <button
     class="flex h-7 cursor-pointer items-center rounded text-gray-800 duration-300 ease-in-out focus:outline-none focus:transition-none focus-visible:rounded focus-visible:ring-2 focus-visible:ring-gray-400"
     :class="isActive ? 'bg-white shadow-sm' : 'hover:bg-gray-100'"
-	@click="handleClick"
+    @click="handleClick"
   >
     <div
       class="flex items-center duration-300 ease-in-out"
@@ -60,5 +60,4 @@ function handleClick() {
 let isActive = computed(() => {
   return router.currentRoute.value.path === props.to
 })
-
 </script>

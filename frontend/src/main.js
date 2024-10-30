@@ -26,12 +26,10 @@ app.use(pinia)
 app.use(router)
 app.use(resourcesPlugin)
 
-
 app.component('Button', Button)
 app.component('Card', Card)
 app.component('Input', Input)
 
 router.isReady().then(() => {
-	app.mount("#app")
+  app.mount('#app')
 })
-
