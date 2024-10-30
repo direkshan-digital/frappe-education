@@ -4,6 +4,7 @@ import { sessionStore } from '@/stores/session'
 import { studentStore } from '@/stores/student'
 
 const routes = [
+  { path: '/', redirect: '/schedule' },
   {
     path: '/schedule',
     name: 'Schedule',
