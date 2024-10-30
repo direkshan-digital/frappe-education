@@ -6,9 +6,7 @@
       </div>
       <div class="flex-1 flex flex-col h-full overflow-auto">
         <Navbar />
-          <router-view  
-            class="flex-1 overflow-auto"
-          />
+        <router-view class="flex-1 overflow-auto" />
       </div>
     </div>
   </div>
@@ -17,7 +15,7 @@
 
 <script setup>
 import Sidebar from '@/components/Sidebar.vue'
-import Navbar from '@/components/Navbar.vue';
-import { RouterView } from 'vue-router';
-import { Toasts } from 'frappe-ui';
+import Navbar from '@/components/Navbar.vue'
+import { RouterView } from 'vue-router'
+import { Toasts } from 'frappe-ui'
 </script>

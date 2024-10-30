@@ -1,3 +1,1 @@
-frappe.treeview_settings["Assessment Group"] = {
-
-}
+frappe.treeview_settings['Assessment Group'] = {}

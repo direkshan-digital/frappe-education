@@ -15,13 +15,13 @@ export default defineConfig({
     outDir: `../${path.basename(path.resolve('..'))}/public/frontend`,
     emptyOutDir: true,
     target: 'es2015',
-    rollupOptions:{
-      output:{
+    rollupOptions: {
+      output: {
         manualChunks: {
           'frappe-ui': ['frappe-ui'],
-        }
-      }
-    }
+        },
+      },
+    },
   },
   optimizeDeps: {
     include: ['feather-icons', 'showdown', 'engine.io-client'],

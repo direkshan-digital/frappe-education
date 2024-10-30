@@ -664,7 +664,7 @@ def get_student_invoices(student):
 		"Sales Invoice",
 		filters={
 			"student": student,
-			"status": ["in", ["Paid", "Unpaid", "Overdue","Partly Paid"]],
+			"status": ["in", ["Paid", "Unpaid", "Overdue", "Partly Paid"]],
 			"docstatus": 1,
 		},
 		fields=[
@@ -675,7 +675,7 @@ def get_student_invoices(student):
 			"fee_schedule",
 			"outstanding_amount",
 			"currency",
-			"grand_total"
+			"grand_total",
 		],
 		order_by="status desc",
 	)

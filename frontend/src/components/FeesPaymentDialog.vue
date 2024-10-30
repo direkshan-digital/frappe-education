@@ -134,7 +134,7 @@ function openPaymentGateway(close) {
       onError(err) {
         showError(err)
       },
-    },
+    }
   )
 }
 
@@ -175,7 +175,7 @@ function handleSuccess(response, close) {
       onError(err) {
         showError(err)
       },
-    },
+    }
   )
 }
 
@@ -190,7 +190,7 @@ function handleFailure(response) {
       onError(err) {
         showError(err)
       },
-    },
+    }
   )
 }
 
