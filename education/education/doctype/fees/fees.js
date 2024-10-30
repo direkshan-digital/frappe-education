@@ -138,6 +138,7 @@ frappe.ui.form.on('Fees', {
           party_type: 'Student',
           party: frm.doc.student,
           recipient_id: frm.doc.contact_email,
+          party_name: frm.doc.student_name,
         },
         callback: function (r) {
           if (!r.exc) {
