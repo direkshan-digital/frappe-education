@@ -100,6 +100,7 @@ class Fees(AccountsController):
 				party=self.student,
 				dt="Fees",
 				dn=self.name,
+				party_name=self.student_name,
 				recipient_id=self.contact_email,
 				submit_doc=True,
 				use_dummy_message=True,
